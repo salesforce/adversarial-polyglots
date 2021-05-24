@@ -19,7 +19,7 @@ Code for generating code-mixed adversarial training (CAT) examples are in `adver
 Similar to `Bumblebee`, `Code-Mixer` requires a dictionary/JSON consisting of sentence-translations pairs. The `extract-xnli-sentences-to-dict.py` and `extract-xquad-questions-to-dict.py` scripts in `scripts` can be used to create these dictionaries for files in the MNLI and SQuAD formats (e.g., XNLI and XQuAD).
 
 # Translated XNLI Data
-We translated the [XNLI data](https://cims.nyu.edu/~sbowman/xnli) to 18 other languages using machine-translation systems (see paper for details). Coming soon.
+We translated the [XNLI data](https://cims.nyu.edu/~sbowman/xnli) to 18 other languages using machine-translation systems (see paper for details). Translation script is in `scripts`. Translated data coming soon.
 
 # Citation
 Please cite the following if you use the code/data in this repository:
